@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💫Cổng Thông Tin Môn Phái PQQ</title>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Reset CSS cơ bản */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Bảng màu chủ đạo: Vàng đồng, Nâu đất, Đỏ trầm */
+            --primary-color: #8B4513; /* Nâu đất */
+            --secondary-color: #DAA520; /* Vàng đồng */
+            --accent-color: #A52A2A; /* Đỏ trầm */
+            --bg-light: #f4f1ea; /* Màu nền kem nhẹ */
+            --text-dark: #333;
+            --card-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            /* Thêm vân giấy gạo nhẹ làm nền */
+            background-image: url('https://www.transparenttextures.com/patterns/rice-paper-2.png'); 
+        }
+
+        /* Header Styles */
+        header {
+            background: rgb(139,69,19);
+            background: linear-gradient(180deg, rgba(139,69,19,1) 0%, rgba(107,53,14,1) 100%);
+            padding: 2rem 1rem;
+            text-align: center;
+            color: var(--secondary-color);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-logo {
+            max-width: 120px;
+            height: auto;
+            margin-bottom: 1rem;
+            border-radius: 50%;
+            border: 3px solid var(--secondary-color);
+            padding: 5px;
+            background: #fff;
+        }
+
+        header h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Main Content & Grid Styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 1rem;
+        }
+
+        .grid-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Styles cho từng Card */
+        .card-link {
+            background: #fff;
+            text-decoration: none;
+            color: var(--primary-color);
+            border-radius: 12px;
+            padding: 2rem 1rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: var(--card-shadow);
+            border: 1px solid #e0d8c8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(139, 69, 19, 0.2);
+            background-color: #fffef9;
+            border-color: var(--secondary-color);
+        }
+
+        .card-link:hover .icon-box i {
+            color: var(--accent-color);
+            transform: scale(1.1);
+        }
+
+        .icon-box {
+            margin-bottom: 1rem;
+            height: 60px;
+            width: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: var(--bg-light);
+            transition: all 0.3s ease;
+        }
+
+        .icon-box i {
+            color: var(--primary-color);
+            transition: all 0.3s ease;
+            font-size: 2rem; /* Tương đương fa-2x */
+        }
+
+        /* Nếu sau này bạn muốn đổi icon thành ảnh logo nhỏ của bạn, dùng class này */
+        .icon-box img {
+            max-width: 40px;
+            height: auto;
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+
+        /* Highlight Card (Mục Tâm linh) */
+        .card-highlight {
+            border: 2px solid var(--secondary-color);
+            background: #fffcf5;
+        }
+        
+        .card-highlight .icon-box i {
+            color: var(--secondary-color);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--primary-color);
+            color: #fff;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .container {
+                padding: 2rem 1rem;
+            }
+            .grid-links {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grid-links {
+                grid-template-columns: 1fr;
+            }
+            .main-logo {
+                max-width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo Môn Phái PQQ" class="main-logo">
+            <h1>Cổng Thông Tin Môn Phái</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="grid-links">
+            
+            <a href="http://a.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-scroll"></i></div>
+                <h2 class="card-title">PQQ Quyết Định</h2>
+            </a>
+
+            <a href="http://b.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-clipboard-user"></i></div>
+                <h2 class="card-title">PQQ Hồ sơ võ sinh</h2>
+            </a>
+
+            <a href="http://c.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-music"></i></div>
+                <h2 class="card-title">PQQ Âm Nhạc</h2>
+            </a>
+
+            <a href="http://d.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-dumbbell"></i></div>
+                <h2 class="card-title">PQQ Chương Trình Huấn Luyện</h2>
+            </a>
+
+            <a href="http://e.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-sitemap"></i></div>
+                <h2 class="card-title">PQQ Kinh Nghiệm Tổ Chức</h2>
+            </a>
+
+            <a href="http://f.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-bullhorn"></i></div>
+                <h2 class="card-title">PQQ Truyền Thông</h2>
+            </a>
+
+            <a href="http://g.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-users"></i></div>
+                <h2 class="card-title">PQQ Môn Sinh</h2>
+            </a>
+
+            <a href="http://h.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-yin-yang"></i></div>
+                <h2 class="card-title">PQQ Đạo Lý</h2>
+            </a>
+
+            <a href="http://i.com" class="card-link">
+                <div class="icon-box"><i class="fa-solid fa-landmark-dome"></i></div>
+                <h2 class="card-title">PQQ Thành Tích</h2>
+            </a>
+
+            <a href="http://j.com" class="card-link card-highlight">
+                <div class="icon-box"><i class="fa-solid fa-vihara"></i></div>
+                <h2 class="card-title">PQQ Ban Huấn Luyện</h2>
+            </a>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Môn Phái PQQ. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+</body>
+</html>
